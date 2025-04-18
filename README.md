@@ -17,10 +17,10 @@ Please download our dataset using this link: [data](https://drive.google.com/fil
 Please find the code in EMNLP2024_ezstance/src.
 
 Command for subtask A:
-nohup bash ./run_bart_mnli_subtaskA.sh > run_bart_mnli_subtaskA_results.log 2>&1 &
+```nohup bash ./run_bart_mnli_subtaskA.sh > run_bart_mnli_subtaskA_results.log 2>&1 &```
 
 Command for subtask B:
-nohup bash ./run_bart_mnli_subtaskB.sh > run_bart_mnli_subtaskB_results.log 2>&1 &
+```nohup bash ./run_bart_mnli_subtaskB.sh > run_bart_mnli_subtaskB_results.log 2>&1 &```
 
 (Remember to change the directory to load data in .sh files.)
 
