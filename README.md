@@ -14,7 +14,15 @@ Please download our dataset using this link: [data](https://drive.google.com/fil
 
 4. In our paper, we proposed a method that uses MNLI pre-trained models for training. In this case, the noun phrases are prompted (which also affects 'mixed' because it also contains noun-phrase targets). Therefore, in the paths corresponding to 'noun phrase' and 'mixed', there is a 'prompt' folder that contains the data with the prompted noun phrase targets. Results based on NLI prompting (e.g., **BART-MNLI-ep**) were obtained using these data.
 
-We will upload our code soon.
+Please find the code in EMNLP2024_ezstance/src.
+
+Command for subtask A:
+nohup bash ./run_bart_mnli_subtaskA.sh > run_bart_mnli_subtaskA_results.log 2>&1 &
+
+Command for subtask B:
+nohup bash ./run_bart_mnli_subtaskB.sh > run_bart_mnli_subtaskB_results.log 2>&1 &
+
+(Remember to change the directory to load data in .sh files.)
 
 Please cite us at:
 ```
